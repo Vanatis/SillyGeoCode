@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SillyGeoCode.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DC19CBD2-E6A7-4ACA-BAB7-F6B0851FE819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SillyGeoCode.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SillyGeoCodeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{80078818-8A6B-4561-B6AB-EED5A247F2B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SillyGeoCode">
+      <UniqueIdentifier>{D8A108AA-775F-4FC9-9D25-CF3DD1B6AE3F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SillyGeoCode\SillyGeoCode.Build.cs">
+      <Filter>Source\SillyGeoCode</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\SillyGeoCode\SillyGeoCode.h">
+      <Filter>Source\SillyGeoCode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SillyGeoCode\SillyGeoCode.cpp">
+      <Filter>Source\SillyGeoCode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SillyGeoCode\SillyGeoCodeGameMode.h">
+      <Filter>Source\SillyGeoCode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SillyGeoCode\SillyGeoCodeGameMode.cpp">
+      <Filter>Source\SillyGeoCode</Filter>
+    </ClCompile>
+    <Filter Include="Source\SillyGeoCode\Resources">
+      <UniqueIdentifier>{156F321B-6DD2-481D-9F4D-315E3739FB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SillyGeoCode\Resources\Windows">
+      <UniqueIdentifier>{DBB89766-DA8D-467C-9E46-57E426C9C8FE}</UniqueIdentifier>
+    </Filter>
+    <ResourceCompile Include="..\..\Source\SillyGeoCode\Resources\Windows\SillyGeoCode.rc">
+      <Filter>Source\SillyGeoCode\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SillyGeoCode\MyPawn.h">
+      <Filter>Source\SillyGeoCode\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\Enemy.h">
+      <Filter>Source\SillyGeoCode\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\MyPawnWeapon.h">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\Pistol.h">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\Rocketlauncher.h">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\Shotgun.h">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\Bullet.h">
+      <Filter>Source\SillyGeoCode\Weapons\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\EnemyBullet.h">
+      <Filter>Source\SillyGeoCode\Weapons\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\PlayerBullet.h">
+      <Filter>Source\SillyGeoCode\Weapons\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SillyGeoCode\SillyGeoHUD.h">
+      <Filter>Source\SillyGeoCode\HUD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SillyGeoCode\MyPawn.cpp">
+      <Filter>Source\SillyGeoCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\Enemy.cpp">
+      <Filter>Source\SillyGeoCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\MyPawnWeapon.cpp">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\Pistol.cpp">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\Rocketlauncher.cpp">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\Shotgun.cpp">
+      <Filter>Source\SillyGeoCode\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\Bullet.cpp">
+      <Filter>Source\SillyGeoCode\Weapons\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\EnemyBullet.cpp">
+      <Filter>Source\SillyGeoCode\Weapons\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\PlayerBullet.cpp">
+      <Filter>Source\SillyGeoCode\Weapons\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SillyGeoCode\SillyGeoHUD.cpp">
+      <Filter>Source\SillyGeoCode\HUD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\SillyGeoCode\Player">
+      <UniqueIdentifier>{3ecdb57d-64f9-4609-b121-a5953f6e8c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SillyGeoCode\Enemy">
+      <UniqueIdentifier>{3172d640-41f1-4160-b926-564827348e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SillyGeoCode\Weapons">
+      <UniqueIdentifier>{f1347cef-cce5-4bf2-b5e4-360fa83c6738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SillyGeoCode\Weapons\Projectiles">
+      <UniqueIdentifier>{16046b72-03dc-4aac-ac96-832723308d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SillyGeoCode\HUD">
+      <UniqueIdentifier>{74a79d7f-95bb-4866-8c07-103c89680cbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
